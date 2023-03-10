@@ -1,0 +1,19 @@
+creating a message table (MySQL):
+
+CREATE TABLE messages (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  user VARCHAR(30) NOT NULL,
+  message VARCHAR(200) NOT NULL,
+  created_at TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (id)
+);
+
+creating a users table: 
+
+CREATE TABLE users (
+  id INT NOT NULL AUTO_INCREMENT,
+  user TEXT CHARACTER SET utf8mb3 NOT NULL,
+  pass TEXT CHARACTER SET utf8mb3 NOT NULL,
+  email TEXT CHARACTER SET utf8mb3 NOT NULL,
+  PRIMARY KEY (id)
+);
