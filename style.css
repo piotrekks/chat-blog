@@ -1,0 +1,30 @@
+body{
+    color:white;
+    background-image: url("https://nwd.ct8.pl/t%C5%82o.jpg");
+}
+#container{
+    background-color: #6464647c;
+}
+.format{
+    color:yellow;
+}
+form{
+    text-align: center;
+}
+h1{
+    float:left;
+}
+b{
+    font-size:15px;
+    color:red;
+    float:right;
+    clear: both;
+}
+main{
+    clear: both;
+}
+a{
+  float:right;
+  color:cyan;
+}
+  

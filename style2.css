@@ -1,0 +1,29 @@
+body{
+    color:white;
+    background-image: url("https://nwd.ct8.pl/t%C5%82o.jpg");
+}
+header{
+    background-color: black;
+    text-align: center;
+    font-size: large;
+    font-family:Comic Sans MS, Comic Sans, cursive;
+}
+#container{
+    width:350px;
+    height:350px;
+    background-image: url("background.jpg");
+
+}
+main{
+    text-align: center;
+    margin-left:43%;
+    margin-top:8%;
+}
+#b1{
+    height:30px;
+    width:100px;
+    background-color: #505050;
+    color:yellow;
+    border-radius: 30px;
+}
+
